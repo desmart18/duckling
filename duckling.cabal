@@ -272,6 +272,8 @@ library
                      , Duckling.Duration.EL.Rules
                      , Duckling.Duration.EN.Corpus
                      , Duckling.Duration.EN.Rules
+                     , Duckling.Duration.KA.Corpus
+                     , Duckling.Duration.KA.Rules
                      , Duckling.Duration.FR.Corpus
                      , Duckling.Duration.FR.Rules
                      , Duckling.Duration.GA.Corpus
@@ -407,6 +409,8 @@ library
                      , Duckling.Ordinal.ES.Rules
                      , Duckling.Ordinal.ET.Corpus
                      , Duckling.Ordinal.ET.Rules
+                     , Duckling.Ordinal.KA.Corpus
+                     , Duckling.Ordinal.KA.Rules
                      , Duckling.Ordinal.FR.Corpus
                      , Duckling.Ordinal.FR.Rules
                      , Duckling.Ordinal.GA.Corpus
@@ -594,6 +598,8 @@ library
                      , Duckling.Time.Corpus
                      , Duckling.Time.Helpers
                      , Duckling.Time.Types
+                     , Duckling.Time.KA.Corpus
+                     , Duckling.Time.KA.Rules
                      -- REMOVE ME
                      , Duckling.Time.TimeZone.Parse
 
@@ -611,6 +617,7 @@ library
                      , Duckling.TimeGrain.HI.Rules
                      , Duckling.TimeGrain.HR.Rules
                      , Duckling.TimeGrain.HU.Rules
+                     , Duckling.TimeGrain.KA.Rules
                      , Duckling.TimeGrain.IT.Rules
                      , Duckling.TimeGrain.JA.Rules
                      , Duckling.TimeGrain.KO.Rules
@@ -752,6 +759,7 @@ test-suite duckling-test
                      , Duckling.Duration.HU.Tests
                      , Duckling.Duration.HI.Tests
                      , Duckling.Duration.JA.Tests
+                     , Duckling.Duration.KA.Tests
                      , Duckling.Duration.KO.Tests
                      , Duckling.Duration.NB.Tests
                      , Duckling.Duration.NL.Tests
@@ -816,6 +824,7 @@ test-suite duckling-test
                      , Duckling.Ordinal.EN.Tests
                      , Duckling.Ordinal.ES.Tests
                      , Duckling.Ordinal.ET.Tests
+                     , Duckling.Ordinal.KA.Tests
                      , Duckling.Ordinal.FR.Tests
                      , Duckling.Ordinal.GA.Tests
                      , Duckling.Ordinal.HE.Tests
@@ -884,6 +893,7 @@ test-suite duckling-test
                      , Duckling.Time.HE.Tests
                      , Duckling.Time.HU.Tests
                      , Duckling.Time.IT.Tests
+                     , Duckling.Time.KA.Tests
                      , Duckling.Time.KO.Tests
                      , Duckling.Time.NB.Tests
                      , Duckling.Time.NL.Tests
